@@ -136,7 +136,6 @@ h2 {
   color: var(--gray-dark);
   border-radius: 0.25rem;
   background: var(--white);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
 }
 h3 {
   margin: 0;
@@ -652,7 +651,6 @@ input,
   border-radius: 0.25rem;
   outline: 0;
   background-image: none;
-  box-shadow: none;
   transition: box-shadow 0.15s ease;
 }
 select {
@@ -667,7 +665,6 @@ select:not([multiple="multiple"]):focus,
 input:not(.cbi-button):focus,
 .cbi-dropdown:focus {
   border-color: var(--primary);
-  box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, 0.1);
 }
 .cbi-dropdown,
 select[multiple="multiple"] {
@@ -726,7 +723,6 @@ select[multiple="multiple"] {
   background-color: var(--white);
   backdrop-filter: blur(var(--blur-radius));
   background-color: rgba(244, 245, 247, var(--blur-opacity));
-  box-shadow: rgba(0, 0, 0, 0.75) 0 0 35px -5px;
 }
 .login-page .login-container .login-form {
   position: absolute;
@@ -816,7 +812,6 @@ select[multiple="multiple"] {
   border-radius: 0;
   outline: none;
   box-sizing: border-box;
-  box-shadow: 0 3px 2px rgba(233, 236, 239, 0.05);
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .login-page .login-container .login-form .form-login .input-group input:focus + .border {
@@ -847,7 +842,6 @@ select[multiple="multiple"] {
   border-radius: 6px;
   outline: none;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 0 50px 0;
   transition: all 0.3s ease !important;
 }
 .login-page .login-container .login-form .cbi-button-apply:hover,
@@ -892,7 +886,6 @@ select[multiple="multiple"] {
   overflow-x: auto;
   word-break: break-word;
   background-color: var(--menu-bg-color);
-  box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 15px -5px;
   transition: all 0.2s;
 }
 .main-left .sidenav-header {
@@ -1290,7 +1283,6 @@ header .fill .status span {
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
 }
 header .fill .status span:last-child {
   margin-right: 0;
@@ -1331,7 +1323,6 @@ footer > a {
   padding: 1rem;
   border-radius: 0.5rem;
   background: #ffffff;
-  box-shadow: 0 0 1rem 0 rgba(136, 152, 170, 0.15);
 }
 #view > div:first-child {
   display: flex;
@@ -1374,7 +1365,6 @@ footer > a {
   border: 0;
   border-radius: 0.25rem !important;
   background-color: #fff;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
   text-shadow: none;
 }
 .modal.alert-message {
@@ -1447,7 +1437,6 @@ footer > a {
   border: 0;
   border-radius: 0.25rem;
   background-color: #fff;
-  box-shadow: 0 0 1rem 0 rgba(136, 152, 170, 0.15);
 }
 .cbi-section:last-child,
 .cbi-section-error:last-child,
@@ -1465,7 +1454,6 @@ footer > a {
 .cbi-modal .cbi-section,
 .cbi-section .cbi-section {
   padding: 0;
-  box-shadow: none;
 }
 .cbi-modal .cbi-tabmenu {
   margin-left: 0;
@@ -1513,7 +1501,6 @@ fieldset > fieldset,
   margin: 0;
   padding: 0;
   border: 0;
-  box-shadow: none;
 }
 .cbi-section > h3:first-child,
 .panel-title {
@@ -1740,26 +1727,21 @@ td > table > tbody > tr > td,
 .cbi-button:focus,
 .item:hover::after,
 .item:focus::after {
-  box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, 0.1);
 }
 .btn:active,
 .cbi-button:active,
 .item:active::after {
-  box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, 0.1);
 }
 .cbi-button-up:hover,
 .cbi-button-up:focus {
-  box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, 0.1);
 }
 .cbi-button-up:active {
-  box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, 0.1);
 }
 .btn:disabled,
 .cbi-button:disabled {
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.5;
-  box-shadow: none;
 }
 /* gray */
 .alert-message [class="btn"],
@@ -1878,7 +1860,6 @@ td > table > tbody > tr > td,
   padding: 0 1rem;
   background-color: #FFFFFF;
   border-radius: 0.25rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
   white-space: nowrap;
   overflow-x: auto;
 }
@@ -2080,7 +2061,6 @@ td > table > tbody > tr > td,
 }
 .cbi-value-field.cbi-dropdown-open .cbi-dropdown {
   border-color: var(--primary);
-  box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, 0.1);
 }
 .cbi-value-field .cbi-dropdown,
 .cbi-value-field .cbi-input-select,
@@ -2221,7 +2201,6 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
   outline: 0;
   background-color: var(--red);
   background-image: none;
-  box-shadow: none;
   box-sizing: border-box;
 }
 .cbi-dynlist > .item > span {
@@ -2241,7 +2220,6 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
   border-radius: 0.25rem 0 0 0.25rem;
   outline: 0;
   background-image: none;
-  box-shadow: none;
   box-sizing: border-box;
   transition: box-shadow 0.15s ease;
 }
@@ -2269,7 +2247,6 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
   border-right-width: 0;
   outline: 0;
   background-image: none;
-  box-shadow: none;
 }
 .cbi-dynlist > .add-item .cbi-button {
   display: flex;
@@ -2284,7 +2261,6 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
   outline: 0;
   background-image: none;
   background-color: var(--gray);
-  box-shadow: none;
   color: var(--white);
   border-color: var(--gray);
   border-radius: 0.25rem;
@@ -2436,7 +2412,6 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
   max-height: 200px !important;
   border: 0 solid #918e8c;
   background: #ffffff;
-  box-shadow: 0 0 4px #918e8c;
   border-radius: 0.25rem;
   color: var(--main-menu-color);
   margin-left: 0 !important;
@@ -2558,7 +2533,6 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
   padding: 1rem;
   border-radius: 0.25rem !important;
   background: #fff;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
 }
 .modal > * {
   line-height: normal;
@@ -2583,7 +2557,6 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 .modal > pre:focus,
 .modal > textarea:focus {
   border: 1px solid var(--primary);
-  box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, 0.1);
 }
 .modal > h4 {
   display: block;
@@ -2592,7 +2565,6 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
   padding: 1rem;
   margin: -1rem -1rem 0 -1rem;
   font-size: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
   border-radius: 0.25rem 0 0 0.25rem;
 }
 .modal h5 {
@@ -2776,7 +2748,6 @@ td > .ifacebadge,
   min-width: 16rem;
 }
 #content_syslog {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
 }
 #syslog {
   font-size: small;
@@ -3026,7 +2997,6 @@ span[data-tooltip] .label {
   position: absolute;
   z-index: 1000;
   left: -10000px;
-  box-shadow: 0 3px 9px rgba(50, 50, 9, 0), 3px 4px 8px rgba(94, 114, 228, 0.1);
   border-radius: 0.25rem;
   background: #fff;
   white-space: pre;
@@ -3120,7 +3090,6 @@ label[data-index][data-depends] {
   white-space: pre;
   color: #eee;
   background-color: #101010;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
 }
 input[name="ping"],
 input[name="traceroute"],
@@ -3181,7 +3150,6 @@ input[name="nslookup"] {
   border-bottom: thin solid #ccc;
   border-radius: 0.25rem;
   background: #eee;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 .commandbox h3 {
   line-height: normal !important;
@@ -3287,7 +3255,6 @@ pre.command-output {
 }
 [data-page="admin-system-startup"] textarea:focus-visible {
   outline: none;
-  box-shadow: none;
   border: 1px solid var(--primary);
 }
 [data-page="admin-system-crontab"] #view p textarea {
@@ -3307,7 +3274,6 @@ pre.command-output {
 }
 [data-page="admin-system-crontab"] #view p textarea:focus-visible {
   outline: none;
-  box-shadow: none;
   border: 1px solid var(--primary);
 }
 [data-page="admin-system-crontabhelper"] .crontab-row .dropdown-container {
@@ -3379,7 +3345,6 @@ pre.command-output {
   margin-top: 0;
 }
 [data-page="admin-system-filetransfer"] .cbi-section-table {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
 }
 [data-page="admin-system-fileassistant"] #upload-toggle {
   display: none !important;
@@ -3516,7 +3481,6 @@ pre.command-output {
   padding: 1rem 1rem !important;
 }
 [data-page="admin-network-diagnostics"] .table {
-  box-shadow: none;
 }
 [data-page="admin-network-diagnostics"] .cbi-section {
   padding: 1rem;
@@ -3663,7 +3627,6 @@ pre.command-output {
 }
 [data-page^="admin-services-openclash"] #cbi-openclash > fieldset .main-card {
   border: none;
-  box-shadow: none;
   padding: 0 10px 10px 10px;
   background: transparent;
 }
@@ -3740,7 +3703,6 @@ pre.command-output {
   background-color: transparent;
   border-radius: 0.25rem;
   font-family: 'Google Sans' !important;
-  box-shadow: none;
 }
 [data-page^="admin-services-openclash"] #debug-rc-output > textarea {
   font-family: 'Google Sans' !important;
@@ -3768,7 +3730,6 @@ pre.command-output {
 }
 /* wireless overview */
 #cbi-wireless > #wifi_assoclist_table > .tr {
-  box-shadow: inset 1px -1px 0 #ddd, inset -1px -1px 0 #ddd;
 }
 #cbi-wireless > #wifi_assoclist_table > .tr.placeholder > .td {
   right: 2rem;
@@ -3777,11 +3738,9 @@ pre.command-output {
   border-top: thin solid #ddd !important;
 }
 #cbi-wireless > #wifi_assoclist_table > .tr.table-titles {
-  box-shadow: inset 1px 0 0 #ddd, inset -1px 0 0 #ddd;
 }
 #cbi-wireless > #wifi_assoclist_table > .tr.table-titles > .th {
   border-bottom: thin solid #ddd;
-  box-shadow: 0 -1px 0 0 #ddd;
 }
 #wifi_assoclist_table > .tr > .td[data-title="RX Rate / TX Rate"] {
   width: 23rem;
@@ -3822,7 +3781,6 @@ div[style*="display:grid;grid-template-columns:repeat"] .ifacebox .ifacebox-body
 .Firewall form {
   margin: 2rem 2rem 0 0;
   padding: 0;
-  box-shadow: none;
 }
 #cbi-firewall-redirect table *,
 #cbi-network-switch_vlan table *,
@@ -4066,8 +4024,7 @@ div[style*="display:grid;grid-template-columns:repeat"] .ifacebox .ifacebox-body
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
-  }
+    }
   .td.cbi-value-field,
   .cbi-section-table-cell {
     display: inline-block;
@@ -4109,8 +4066,7 @@ div[style*="display:grid;grid-template-columns:repeat"] .ifacebox .ifacebox-body
     position: static !important;
     margin: 0 0 2rem 0;
     padding: 2rem;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
-  }
+    }
   .Firewall form input {
     width: 100% !important;
     margin: 0;
@@ -4226,8 +4182,7 @@ div[style*="display:grid;grid-template-columns:repeat"] .ifacebox .ifacebox-body
     padding: 1em;
     border-radius: 3px !important;
     background: #fff;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
-  }
+    }
   .cbi-dropdown[open] > ul.dropdown {
     margin-bottom: 1rem;
   }
